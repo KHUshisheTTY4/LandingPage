@@ -53,11 +53,23 @@ button{
 h2{
     text-align: center;
 }
-.container{
-    display: flex;
+.second{
+    padding:  10px 50px 100px 50px;
 }
+.container{
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
 .info{
-    border-color: #3882F6;
-    border-width: 2px;
+    width: 200px;
+}
+
+.one{
+    height: 200px;
+    width: 200px;
     border-radius: 8px;
+    border: 1px solid #3882F6;
 }
