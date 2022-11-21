@@ -5,12 +5,14 @@
     color: #f9faf8;
 }
 .first{
-    padding: 32px 200px ;
+    padding: 32px ;
+    align-items: center;
 }
+
 .website{
     display: flex;
     margin:50px 0 50px 0;
-    justify-content: space-between;
+    gap: 32px;
 
 }
 .awesome{
@@ -36,7 +38,7 @@ ul {
   }
   
 #photo{
-    width:700px;
+    min-width:500px;
     height: 250px;
 }
 h1{
@@ -81,7 +83,7 @@ h2{
     align-items: center;
     justify-content: center;
 }
-p{
+.content p{
     width: 700px;
     font-size: 36px;
     font-style: italic;
@@ -91,4 +93,28 @@ p{
     font-weight: bold;
     font-size: 25px;
     text-align:end;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    padding: 70px 50px; 
+   
+}
+.mini{
+    display: flex;
+    width: 1000px;
+    justify-content:space-around ;
+    background-color: #3882F6;
+    height: 140px;
+    align-items: center;
+    border-radius: 8px;
+}
+.action{
+    color:#E5e7eB;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
