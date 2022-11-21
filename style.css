@@ -73,3 +73,22 @@ h2{
     border-radius: 8px;
     border: 1px solid #3882F6;
 }
+.three{
+    display: flex;
+    flex-direction: column;
+    background-color:#E5e7eB ;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.thor{
+    font-weight: bold;
+    font-size: 25px;
+    text-align:end;
+}
